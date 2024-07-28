@@ -54,24 +54,51 @@ const Home=()=>{
     <div>
       <section className="bg-white p-8">
         
-        <div className="grid grid-cols-3 gap-4 p-4">
+        <div className="grid grid-cols-1 gap-4 p-4">
             
           <div className="bg-white p-4 rounded-md">
-            <h2 className="text-4xl font-bold text-red-600 text-center">21 Municipios</h2>
+            <h2 className="text-4xl font-bold text-red-600 text-center">40 Localidades</h2>
            
           </div>
           <div className="bg-white p-4 rounded-md">
             <h2 className="text-4xl font-bold text-red-600 text-center">1615 Familias</h2>
-            <p></p>
           </div>
           <div className="bg-white p-4 rounded-md">
-            <h2 className="text-4xl font-bold text-red-600 text-center">40 Localidades</h2>
-            <p></p>
+            <h2 className="text-4xl font-bold text-red-600 text-center">21 Municipios</h2>
           </div>
-        </div>
-      </section>
+      </div> 
+   
+    </section>
     </div>
-  </div>
+  
+
+          <div className="grid grid-cols-3 gap-4 p-4">
+            
+            <div className="bg-white p-4 rounded-md">
+              <p className="text-center">Santa Cruz Xoxocotlan</p>
+              <p className="text-center">Tlacolula de matamoros</p>
+              <p className="text-center">San Pedro Ixtlahuaca</p>
+              <p className="text-center">San Pedro Ixtlahuaca</p>
+             
+            </div>
+            <div className="bg-white p-4 rounded-md">
+            <p className="text-center">San Bartolo Coyotepec</p>
+            <p className="text-center">Montoya</p>
+            <p className="text-center">San Pedro Nopala</p>
+            <p className="text-center">Santa Maria Atzompa</p>
+                
+              
+            </div>
+            <div className="bg-white p-4 rounded-md">
+             <p className="text-center">Oaxaca</p>
+             <p className="text-center">San Martin Mexicapan</p>
+             <p className="text-center">San Felipe Tejalapan</p>
+             <p className="text-center">San Lorenzo Cacaotepec</p>
+             
+            </div>
+            </div>
+        </div>
+    
        
     )
 }
