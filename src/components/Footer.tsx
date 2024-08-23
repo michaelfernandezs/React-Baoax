@@ -1,5 +1,5 @@
-import { CiMail } from "react-icons/ci";
-import { FaArrowAltCircleDown, FaFacebook, FaInstagram, FaLocationArrow, FaMailBulk, FaMailchimp, FaPhone, FaTwitter, FaVoicemail } from "react-icons/fa";
+
+import { FaFacebook, FaInstagram,FaMailBulk, FaPhone, FaTwitter, } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 const Footer=()=>{
    
